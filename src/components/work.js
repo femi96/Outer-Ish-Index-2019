@@ -8,32 +8,32 @@ const Work = ({}) => (
   <div className='stub_container'>
     <Stub
       title='PocketGems'
-      desc='PocketGems etc desc'
+      desc='Pioneering Mobile Games'
       date='Jan 2019'
       image='../images/oii-icon.png'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
+      title='Clevr'
+      desc='Collaborative Learning Experiences in VR'
+      date='Jan 2018 - Now'
       image='lul'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
+      title='Gameblox'
+      desc='Playful, Powerful Learning'
+      date='Jun-Aug 2017'
       image='lul'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
+      title='PubPub'
+      desc='Open, Continuous Publishing'
+      date='Jun-Aug 2015 & 2016'
       image='lul'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
+      title='DataTapestry'
+      desc='Earth Tapestry Data Exploration'
+      date='Jun 2015'
       image='lul'>
     </Stub>
   </div>
