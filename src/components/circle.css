@@ -1,0 +1,19 @@
+.circ_container {
+  margin: 1.5rem auto;
+  width: 100%;
+  text-align: center;
+}
+
+.circ {
+  transition: all ease-in-out 0.4s;
+  overflow: hidden;
+  margin: 0.1rem 0.7292rem;
+  padding: 0;
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: #f9f9f9;
+  border: solid #EFEFEF 1px;
+  border-radius: 7.5rem;
+  display: inline-block;
+  position: relative;
+}

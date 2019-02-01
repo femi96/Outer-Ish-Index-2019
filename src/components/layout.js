@@ -38,11 +38,11 @@ const Layout = ({ children, title }) => (
         <hr></hr>
       </div>
 
-      { children }
+      <div className='content'>{ children }</div>
 
       <div className='footer'>
         <hr></hr>
-        <div className='footer_end'>Femi Oladipupo <span style={{color:'#828282'}}>©2019</span></div>
+        <div className='footer_end'>Femi Oladipupo <span style={{color:'#828282'}}>©{new Date().getFullYear()}</span></div>
       </div>
 
     </div>

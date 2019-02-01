@@ -1,0 +1,39 @@
+.stub_container {
+  margin: 2rem auto;
+  width: 100%;
+  text-align: center;
+}
+
+.stub {
+  transition: all ease-in-out 0.4s;
+  overflow: hidden;
+  margin: 0.1rem 0.2292rem;
+  padding: 0;
+  width: 11.25rem;
+  height: 5.625rem;
+  background-color: #f9f9f9;
+  border: solid #EFEFEF 1px;
+  border-radius: 0.25rem;
+  display: inline-block;
+  position: relative;
+}
+
+.stub_date {
+  float: right;
+  margin-top: 0.125rem;
+  margin-right: 0.125rem;
+}
+
+.stub_title {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1.125rem;
+  left: 0.125rem;
+}
+
+.stub_desc {
+  color: #828282;
+  position: absolute;
+  bottom: 0;
+  left: 0.125rem;
+}
