@@ -1,20 +1,21 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 import PropTypes from 'prop-types'
 
-import stubStyles from './circle.css'
+import './circle.css'
 
-const Circle = ({ image, alt, link }) => (
-  <Link to="/">
-  <div className='circ'
-    style={{backgroundImage: `url(${image})`}}>
+const Circle = ({ image, char, alt, link }) => (
+  <Link to={link ? link : '/'}>
+  <div className='circ' title={alt ? alt : ''}>
+    {char ? char : 'N/A'}
   </div>
   </Link>
 )
 
 Circle.propTypes = {
   image: PropTypes.node.isRequired,
+  char: PropTypes.node.isRequired,
   alt: PropTypes.node.isRequired,
   link: PropTypes.node.isRequired,
 }

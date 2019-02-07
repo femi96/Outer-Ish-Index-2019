@@ -1,40 +1,43 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 
 import Stub from '../components/stub'
 
-const Projects = ({}) => (
+const Projects = () => (
   <div className='stub_container'>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
-      image='../images/oii-icon.png'>
+      title='Fabula-Lupus'
+      desc='Tactics Game'
+      date='Dec 2018 - Present'
+      image='../images/oii-icon.png'
+      link='/fabula-lupus'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
-      image='lul'>
+      title='Gardens of Pan'
+      desc='Simulated Monster Gardens'
+      date='Feb 2018 - Present'
+      image='../images/oii-icon.png'
+      link='/gardens-of-pan'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
-      image='lul'>
+      title='Graphics Garden'
+      desc='Procedurally Generated Flora'
+      date='Nov 2018 - Dec 2018'
+      image='../images/oii-icon.png'
+      link='/graphics-garden'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
-      image='lul'>
+      title='So Much Simplicity (SMS)'
+      desc='Low Vision Texting on Android'
+      date='Oct 2018 - Dec 2018'
+      image='../images/oii-icon.png'
+      link='/sms'>
     </Stub>
     <Stub
-      title='PocketGems'
-      desc='PocketGems etc desc'
-      date='Jan 2019'
-      image='lul'>
+      title='ModuleCG'
+      desc='Action-Programming Card Game'
+      date='Dec 2015'
+      image='../images/oii-icon.png'
+      link='/modulecg'>
     </Stub>
   </div>
 )

@@ -21,7 +21,6 @@ body {
 }
 
 a {
-  transition: all ease-in-out 0.4s;
   text-decoration: none;
   color: inherit;
 }

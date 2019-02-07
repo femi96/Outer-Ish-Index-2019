@@ -1,30 +1,38 @@
 import React from 'react'
-import { Link } from "gatsby"
-import PropTypes from 'prop-types'
 
 import Circle from '../components/circle'
 
-const Extras = ({}) => (
+const Extras = () => (
   <div className='circ_container'>
     <Circle
       image='../images/oii-icon.png'
-      alt='skills'>
+      char='S'
+      alt='Skills'
+      link='/skills'>
     </Circle>
     <Circle
       image='../images/oii-icon.png'
-      alt='courses'>
+      char='C'
+      alt='Courses'
+      link='/courses'>
     </Circle>
     <Circle
       image='../images/oii-icon.png'
-      alt='thoughts'>
+      char='T'
+      alt='Thoughts'
+      link='/thoughts'>
     </Circle>
     <Circle
       image='../images/oii-icon.png'
-      alt='music'>
+      char='M'
+      alt='Music'
+      link='/music'>
     </Circle>
     <Circle
       image='../images/oii-icon.png'
-      alt='games'>
+      char='G'
+      alt='Games'
+      link='/games'>
     </Circle>
   </div>
 )
