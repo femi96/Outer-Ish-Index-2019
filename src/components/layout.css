@@ -124,6 +124,10 @@ hr {
   height: 1.5rem;
 }
 
+.footer_icon:hover {
+  opacity: 0.5;
+}
+
 /* Content
 ================== */
 
