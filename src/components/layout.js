@@ -7,6 +7,10 @@ import favicon16 from '../images/oii-icon.png'
 import favicon32 from '../images/oii-icon.png'
 import favicon64 from '../images/oii-icon.png'
 
+import gicon from '../images/gatsby-icon.png'
+import twittericon from '../images/twitter-icon.png'
+import githubicon from '../images/github-icon.png'
+
 import './layout.css'
 
 const Layout = ({ children, title }) => (
@@ -30,20 +34,35 @@ const Layout = ({ children, title }) => (
       <div className='header'>
         <Link to='/'><h1 class='header_title'>Femi Oladipupo</h1></Link>
         <hr></hr>
-        <nav><ul class='header_menu'>
-          <li class='header_menuItem'><a title='Email femi96@mit.edu' href='mailto:femi96@mit.edu' target='_blank'>Email</a></li>
-          <li class='header_menuItem'><a title='Github @femi96' href='https://github.com/femi96' target='_blank'>Github</a></li>
-          <li class='header_menuItem'><a title='Twitter @imef96' href='https://twitter.com/imef96' target='_blank'>Twitter</a></li>
-          <li class='header_menuItem'><Link to='/resume'>Resume</Link></li>
-        </ul></nav>
-        <hr></hr>
       </div>
 
       <div className='content'>{ children }</div>
 
       <div className='footer'>
         <hr></hr>
-        <div className='footer_end'>Femi Oladipupo <span style={{color:'#828282'}}>©{new Date().getFullYear()}</span></div>
+
+        <div className='footer_content'>
+        <div className='footer_icon_con'>
+          <a title='Github @femi96' href='https://github.com/femi96' target='_blank'>
+            <img className='footer_icon' src={githubicon} alt='GitHub Icon'/>
+          </a>
+        </div>
+        
+        <div className='footer_icon_con'>
+          <a title='Twitter @imef96' href='https://twitter.com/imef96' target='_blank'>
+            <img className='footer_icon' src={twittericon} alt='Twitter Icon'/>
+          </a>
+        </div>
+
+        <div className='footer_text'>
+          <a title='Email femi96@mit.edu' href='mailto:femi96@mit.edu' target='_blank'>Femi Oladipupo</a>
+          <span style={{color:'#828282'}}> © {new Date().getFullYear()}</span>
+        </div>
+
+        <div className='footer_text_r'>
+          <Link to='/resume'>Resume</Link>
+        </div>
+        </div>
       </div>
 
     </div>
