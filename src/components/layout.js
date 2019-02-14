@@ -55,7 +55,7 @@ const Layout = ({ children, title }) => (
         </div>
 
         <div className='footer_text'>
-          <a title='Email femi96@mit.edu' href='mailto:femi96@mit.edu' target='_blank'>Femi Oladipupo</a>
+          <Link to='/'>Femi Oladipupo</Link>
           <span style={{color:'#828282'}}> © {new Date().getFullYear()}</span>
         </div>
 
