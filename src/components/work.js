@@ -26,16 +26,9 @@ const Work = () => (
       link='/gameblox'>
     </Stub>
     <Stub
-      title='PubPub (2016)'
+      title='PubPub'
       desc='Open, Continuous Publishing'
-      date='Jun 2016 - Aug 2016'
-      image='lul'
-      link='/pubpub'>
-    </Stub>
-    <Stub
-      title='PubPub (2015)'
-      desc='Open, Continuous Publishing'
-      date='Jun 2015 - Aug 2015'
+      date='Jun 2015 - Aug 2016'
       image='lul'
       link='/pubpub'>
     </Stub>

@@ -32,7 +32,7 @@ const Layout = ({ children, title }) => (
     <div className='main'>
 
       <div className='header'>
-        <Link to='/'><h1 class='header_title'>Femi Oladipupo</h1></Link>
+        <Link to='/' title='Main Page'><h1 class='header_title'>Femi Oladipupo</h1></Link>
         <hr></hr>
       </div>
 
@@ -55,7 +55,7 @@ const Layout = ({ children, title }) => (
         </div>
 
         <div className='footer_text'>
-          <Link to='/'>Femi Oladipupo</Link>
+          <Link to='/' title='Main Page'>Femi Oladipupo</Link>
           <span style={{color:'#828282'}}> © {new Date().getFullYear()}</span>
         </div>
 
