@@ -5,9 +5,9 @@ import PropTypes from 'prop-types'
 
 import './circle.css'
 
-const Circle = ({ image, char, alt, link }) => (
+const Circle = ({ image, theme, char, alt, link }) => (
   <Link to={link ? link : '/'}>
-  <div className='circ' title={alt ? alt : ''}>
+  <div className={'circ ' + theme} title={alt ? alt : ''}>
     {char ? char : 'N/A'}
   </div>
   </Link>
@@ -15,6 +15,7 @@ const Circle = ({ image, char, alt, link }) => (
 
 Circle.propTypes = {
   image: PropTypes.node.isRequired,
+  theme: PropTypes.string,
   char: PropTypes.node.isRequired,
   alt: PropTypes.node.isRequired,
   link: PropTypes.node.isRequired,
