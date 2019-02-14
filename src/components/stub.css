@@ -42,3 +42,11 @@
   left: 0.5rem;
   color: #828282;
 }
+
+.stub_theme_a {
+  background-image: url('../images/back_light.png');
+}
+
+.stub_theme_a:hover {
+  background-image: url('../images/back_dark.png');
+}

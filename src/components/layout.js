@@ -7,7 +7,6 @@ import favicon16 from '../images/oii-icon.png'
 import favicon32 from '../images/oii-icon.png'
 import favicon64 from '../images/oii-icon.png'
 
-import gicon from '../images/gatsby-icon.png'
 import twittericon from '../images/twitter-icon.png'
 import githubicon from '../images/github-icon.png'
 
@@ -32,7 +31,7 @@ const Layout = ({ children, title }) => (
     <div className='main'>
 
       <div className='header'>
-        <Link to='/' title='Main Page'><h1 class='header_title'>Femi Oladipupo</h1></Link>
+        <Link to='/' title='Main Page'><h1 className='header_title'>Femi Oladipupo</h1></Link>
         <hr></hr>
       </div>
 
@@ -43,13 +42,13 @@ const Layout = ({ children, title }) => (
 
         <div className='footer_content'>
         <div className='footer_icon_con'>
-          <a title='Github @femi96' href='https://github.com/femi96' target='_blank'>
+          <a title='Github @femi96' href='https://github.com/femi96' rel='noopener noreferrer' target='_blank'>
             <img className='footer_icon' src={githubicon} alt='GitHub Icon'/>
           </a>
         </div>
         
         <div className='footer_icon_con'>
-          <a title='Twitter @imef96' href='https://twitter.com/imef96' target='_blank'>
+          <a title='Twitter @imef96' href='https://twitter.com/imef96' rel='noopener noreferrer' target='_blank'>
             <img className='footer_icon' src={twittericon} alt='Twitter Icon'/>
           </a>
         </div>
@@ -71,7 +70,7 @@ const Layout = ({ children, title }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  title: PropTypes.node.isRequired,
+  title: PropTypes.string,
 }
 
 export default Layout

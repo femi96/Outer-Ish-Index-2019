@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 
 import './stub.css'
 
-const Stub = ({ title, desc, date, image, link }) => (
+const Stub = ({ title, desc, date, theme, link }) => (
   <Link to={link ? link : '/'}>
-  <div className='stub' title={title ? title : ''}>
+  <div className={'stub ' + theme} title={title ? title : ''}>
     <div className='stub_date'>{date}</div>
     <div className='stub_title'>{title}</div>
     <div className='stub_desc'>{desc}</div>
@@ -18,7 +18,7 @@ Stub.propTypes = {
   title: PropTypes.node.isRequired,
   desc: PropTypes.node.isRequired,
   date: PropTypes.node.isRequired,
-  image: PropTypes.node.isRequired,
+  theme: PropTypes.string,
   link: PropTypes.node.isRequired,
 }
 
