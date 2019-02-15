@@ -11,23 +11,38 @@
   padding: 0;
   width: 7.5rem;
   height: 7.5rem;
-  line-height: 7.5rem;
   background-color: #f9f9f9;
   border: solid #EFEFEF 1px;
   border-radius: 7.5rem;
   display: inline-block;
   position: relative;
-  font-size: 3.25rem;
 }
 
-.circ:hover{
+.circ_img {
+  font-size: 3.25rem;
+  line-height: 7.5rem;
+}
+
+.circ_text {
+  /*position: absolute;
+  font-size: 1.25rem;
+  width: 7.5rem;
+  bottom: 0.9375rem;*/
+
+  font-size: 1.625rem;
+  line-height: 7.5rem;
+}
+
+.circ:hover {
   background-color: #fff;
 }
 
 .circ_theme_a {
   background-image: url('../images/back_blue_gem.png');
+  /*border-color: black;*/
 }
 
 .circ_theme_a:hover {
   background-image: url('../images/back_yellow_gem.png');
+  /*border-color: grey;*/
 }

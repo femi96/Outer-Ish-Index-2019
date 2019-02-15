@@ -7,7 +7,7 @@ const NotFoundPage = () => (
   
   <Layout title='error'>
     <div className='content_block'>
-      <Link to='/'>You just hit a route that doesn&#39;t exist... click here to return to the main site.</Link>
+      <Link to='/' className='link_text'>You just hit a route that doesn&#39;t exist... click here to return to the main site.</Link>
     </div>
   </Layout>
 )

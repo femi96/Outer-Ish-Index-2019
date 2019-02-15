@@ -29,11 +29,6 @@ a {
   color: inherit;
 }
 
-a:hover {
-  color: #9e9e9e;
-  text-decoration: none;
-}
-
 hr {
   border: none;
   height: 1px;
@@ -48,7 +43,7 @@ hr {
 
 .main {
   overflow: hidden;
-  transition: opacity 0.875s ease 0.5s, transform 0.875s ease 0.5s;
+  transition: ease 0.5s;
 
   margin: 0 auto 0 auto;
   padding: 0;
@@ -164,4 +159,13 @@ hr {
   text-align: center;
   font-size: 1.375rem;
   letter-spacing: 0.125rem;
+}
+
+.link_text {
+  transition: ease 0.875s;
+}
+
+.link_text:hover {
+  color: #9e9e9e;
+  /*text-decoration: none;*/
 }

@@ -5,38 +5,33 @@ import Circle from '../components/circle'
 const Extras = () => (
   <div className='circ_container'>
     <Circle
-      image='../images/oii-icon.png'
+      image='S'
       theme='circ_theme_a'
-      char='S'
-      alt='Skills'
+      text='Skills'
       link='/skills'>
     </Circle>
     <Circle
-      image='../images/oii-icon.png'
+      image='C'
       theme=''
-      char='C'
-      alt='Courses'
+      text='Courses'
       link='/courses'>
     </Circle>
     <Circle
-      image='../images/oii-icon.png'
+      image='T'
       theme=''
-      char='T'
-      alt='Thoughts'
+      text='Thoughts'
       link='/thoughts'>
     </Circle>
     <Circle
-      image='../images/oii-icon.png'
+      image='M'
       theme=''
-      char='M'
-      alt='Music'
+      text='Music'
       link='/music'>
     </Circle>
     <Circle
-      image='../images/oii-icon.png'
+      image='G'
       theme=''
-      char='G'
-      alt='Games'
+      text='Games'
       link='/games'>
     </Circle>
   </div>
