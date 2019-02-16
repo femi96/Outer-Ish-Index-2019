@@ -9,7 +9,7 @@ const ALink = ({ children, title, href }) => (
 
 ALink.propTypes = {
   children: PropTypes.node.isRequired,
-  title: PropTypes.node.string,
+  title: PropTypes.node,
   href: PropTypes.node.isRequired,
 }
 

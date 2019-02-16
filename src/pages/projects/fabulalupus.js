@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-import ALink from '../../components/alink'
+// import ALink from '../../components/alink'
 
 const FabulaLupusPage = () => (
   <Layout title='Fabula-Lupus'>
