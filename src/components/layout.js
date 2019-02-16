@@ -11,6 +11,7 @@ import twittericon from '../images/twitter-icon.png'
 import githubicon from '../images/github-icon.png'
 
 import './layout.css'
+import ALink from './alink'
 
 const Layout = ({ children, title }) => (
   <div className='wrapper'>
@@ -42,15 +43,15 @@ const Layout = ({ children, title }) => (
 
         <div className='footer_content'>
         <div className='footer_icon_con'>
-          <a title='Github @femi96' href='https://github.com/femi96' rel='noopener noreferrer' target='_blank'>
+          <ALink title='Github @femi96' href='https://github.com/femi96'>
             <img className='footer_icon' src={githubicon} alt='GitHub Icon'/>
-          </a>
+          </ALink>
         </div>
         
         <div className='footer_icon_con'>
-          <a title='Twitter @imef96' href='https://twitter.com/imef96' rel='noopener noreferrer' target='_blank'>
+          <ALink title='Twitter @imef96' href='https://twitter.com/imef96'>
             <img className='footer_icon' src={twittericon} alt='Twitter Icon'/>
-          </a>
+          </ALink>
         </div>
 
         <div className='footer_text'>

@@ -9,35 +9,35 @@ const Projects = () => (
       desc='Tactics Game'
       date='Dec 2018 - Present'
       theme='../images/oii-icon.png'
-      link='/fabula-lupus'>
+      link='/projects/fabulalupus'>
     </Stub>
     <Stub
       title='Gardens of Pan'
       desc='Simulated Monster Gardens'
       date='Feb 2018 - Present'
       theme='../images/oii-icon.png'
-      link='/gardens-of-pan'>
+      link='/projects/pan'>
     </Stub>
     <Stub
       title='Graphics Garden'
       desc='Procedurally Generated Flora'
       date='Nov 2018 - Dec 2018'
       theme='../images/oii-icon.png'
-      link='/graphics-garden'>
+      link='/projects/graphicsgarden'>
     </Stub>
     <Stub
       title='So Much Simplicity (SMS)'
       desc='Low Vision Texting on Android'
       date='Oct 2018 - Dec 2018'
       theme='../images/oii-icon.png'
-      link='/sms'>
+      link='/projects/sms'>
     </Stub>
     <Stub
       title='ModuleCG'
       desc='Action-Programming Card Game'
       date='Dec 2015'
       theme='../images/oii-icon.png'
-      link='/modulecg'>
+      link='/projects/modulecg'>
     </Stub>
   </div>
 )

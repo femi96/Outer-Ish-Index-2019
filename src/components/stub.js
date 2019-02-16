@@ -6,7 +6,7 @@ import './stub.css'
 
 const Stub = ({ title, desc, date, theme, link }) => (
   <Link to={link ? link : '/'}>
-  <div className={'stub ' + theme} title={title ? title : ''}>
+  <div className={'stub ' + theme} title={false ? title : ''}>
     <div className='stub_date'>{date}</div>
     <div className='stub_title'>{title}</div>
     <div className='stub_desc'>{desc}</div>

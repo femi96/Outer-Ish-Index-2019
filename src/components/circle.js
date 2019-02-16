@@ -7,7 +7,7 @@ import './circle.css'
 
 const Circle = ({ image, theme, text, link }) => (
   <Link to={link ? link : '/'}>
-  <div className={'circ ' + theme} title={text ? text : ''}>
+  <div className={'circ ' + theme} title={false ? text : ''}>
     <div className='circ_text'>{text ? text : 'N/A'}</div>
   </div>
   </Link>
