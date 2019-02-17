@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import ALink from '../../components/alink'
+import Layout from '../components/layout'
+import ALink from '../components/alink'
 
 const SkillsPage = () => (
   <Layout title='Skills'>

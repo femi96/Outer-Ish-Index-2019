@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import Box from '../../components/box'
+import Layout from '../components/layout'
+import Box from '../components/box'
 
 const MusicPage = () => (
   <Layout title='Music'>

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import Stub from '../../components/stub'
+import Layout from '../components/layout'
+import Stub from '../components/stub'
 
 const ThoughtsPage = () => (
   <Layout title='Thoughts'>

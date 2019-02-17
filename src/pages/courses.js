@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from '../../components/layout'
-import CourseLink from '../../components/courselink'
+import Layout from '../components/layout'
+import CourseLink from '../components/courselink'
 
 const CoursesPage = () => (
   <Layout title='Courses'>

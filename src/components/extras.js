@@ -8,31 +8,31 @@ const Extras = () => (
       image='S'
       theme='circ_theme_a'
       text='Skills'
-      link='/extras/skills'>
+      link='/skills'>
     </Circle>
     <Circle
       image='C'
       theme=''
       text='Courses'
-      link='/extras/courses'>
+      link='/courses'>
     </Circle>
     <Circle
       image='T'
       theme=''
       text='Thoughts'
-      link='/extras/thoughts'>
+      link='/thoughts'>
     </Circle>
     <Circle
       image='M'
       theme=''
       text='Music'
-      link='/extras/music'>
+      link='/music'>
     </Circle>
     <Circle
       image='G'
       theme=''
       text='Games'
-      link='/extras/games'>
+      link='/games'>
     </Circle>
   </div>
 )
