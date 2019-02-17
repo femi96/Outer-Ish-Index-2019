@@ -1,25 +1,50 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-import ALink from '../../components/alink'
+import Box from '../../components/box'
 
-const ClevrPage = () => (
-  <Layout title='Clevr'>
-    <div className='page_title'>Clevr</div>
-    <div className='page_subtitle'>Collaborative Learning Experiences in Virtual Reality</div>
-
-    <div className='paragraph'><p>Developed a 3D cell environment, with navigation tools and network functionality for STEP Lab’s CLEVR. CLEVR is a project designed to create learning experience in virtual reality, supported by Oculus and the MIT GameLab. The unique affordances of VR have helped to dispel some of the misconceptions about molecular biology, while the networking capabilities have improved the project’s viability as a classroom tool.</p></div>
-
+const MusicPage = () => (
+  <Layout title='Music'>
+    <div className='page_title'>Music</div>
+    <div className='page_subtitle'>Some of my favorite music</div>
+    
     <hr></hr>
-    <div className='title'>Links</div>
+    <div className='title'>Top 5 Albums</div>
     <hr></hr>
 
-    <div className='content_block'>
-    <ul>
-        <li><ALink href='https://education.mit.edu/project/clevr/'>MIT Scheller Teacher Education Program - Clevr</ALink></li>
-    </ul>
+    <div className='box_container'>
+      <Box
+        theme=''
+        author='Frank Ocean'
+        text='Blonde'
+        link='https://www.youtube.com/watch?v=diIFhc_Kzng&list=PLJ2FljtfRtQVqVt0AwpyYGxJrET4cjB4V'>
+      </Box>
+      <Box
+        theme=''
+        author='Kevin Abstract'
+        text='MTV1987'
+        link='https://www.youtube.com/watch?v=7D3AnGPeADk'>
+      </Box>
+      <Box
+        theme=''
+        author='Tyler the Creator'
+        text='Flower Boy'
+        link='https://www.youtube.com/watch?v=OB12BslMI3Q'>
+      </Box>
+      <Box
+        theme=''
+        author='Mitski'
+        text='Be the Cowboy'
+        link='https://www.youtube.com/watch?v=3zdFZJf-B90&list=PLVCjGDT0cZZF78SAWjwV4_Lsu01RyWr5q'>
+      </Box>
+      <Box
+        theme=''
+        author='Kevin Abstract'
+        text='American Boyfriend'
+        link='https://www.youtube.com/watch?v=dJarpbuXxDU'>
+      </Box>
     </div>
   </Layout>
 )
 
-export default ClevrPage
+export default MusicPage

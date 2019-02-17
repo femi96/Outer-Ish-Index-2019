@@ -1,0 +1,53 @@
+.box_container {
+  margin: 1.5rem auto;
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  transition: all 0.4s;
+  overflow: hidden;
+  margin: 0.25rem 0.25rem;
+  padding: 0;
+  width: 11rem;
+  height: 11rem;
+  background-color: #f9f9f9;
+  border: solid #EFEFEF 1px;
+  border-radius: 1rem;
+  /*border-radius: 0.25rem;*/
+  display: inline-block;
+  position: relative;
+}
+
+.box_text {
+  position: absolute;
+  width: 100%;
+  bottom: 0.25rem;
+
+  font-size: 1.125rem;
+  /*line-height: 7.5rem;*/
+}
+
+.box_author {
+  position: absolute;
+  width: 100%;
+  bottom: 1.5rem;
+
+  font-size: 1rem;
+  color: #828282;
+  /*line-height: 7.5rem;*/
+}
+
+.box:hover {
+  background-color: #fff;
+}
+
+.circ_theme_a {
+  /*background-image: url('../images/back_blue_gem.png');*/
+  /*border-color: black;*/
+}
+
+.circ_theme_a:hover {
+  /*background-image: url('../images/back_yellow_gem.png');*/
+  /*border-color: grey;*/
+}
