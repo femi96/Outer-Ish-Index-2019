@@ -38,11 +38,11 @@
 }
 
 .circ_theme_a {
-  background-image: url('../images/back_blue_gem.png');
+  /*background-image: url('../images/back_blue_gem.png');*/
   /*border-color: black;*/
 }
 
 .circ_theme_a:hover {
-  background-image: url('../images/back_yellow_gem.png');
+  /*background-image: url('../images/back_yellow_gem.png');*/
   /*border-color: grey;*/
 }

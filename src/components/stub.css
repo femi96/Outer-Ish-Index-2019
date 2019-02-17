@@ -44,9 +44,9 @@
 }
 
 .stub_theme_a {
-  background-image: url('../images/back_blue_gem.png');
+  /*background-image: url('../images/back_blue_gem.png');*/
 }
 
 .stub_theme_a:hover {
-  background-image: url('../images/back_yellow_gem.png');
+  /*background-image: url('../images/back_yellow_gem.png');*/
 }
