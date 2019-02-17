@@ -1,25 +1,32 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-import ALink from '../../components/alink'
+import Stub from '../../components/stub'
 
-const ClevrPage = () => (
-  <Layout title='Clevr'>
-    <div className='page_title'>Clevr</div>
-    <div className='page_subtitle'>Collaborative Learning Experiences in Virtual Reality</div>
-
-    <div className='paragraph'><p>Developed a 3D cell environment, with navigation tools and network functionality for STEP Lab’s CLEVR. CLEVR is a project designed to create learning experience in virtual reality, supported by Oculus and the MIT GameLab. The unique affordances of VR have helped to dispel some of the misconceptions about molecular biology, while the networking capabilities have improved the project’s viability as a classroom tool.</p></div>
-
-    <hr></hr>
-    <div className='title'>Links</div>
-    <hr></hr>
+const ThoughtsPage = () => (
+  <Layout title='Thoughts'>
+    <div className='page_title'>Thoughts</div>
+    <div className='page_subtitle'>A Work in Progress</div>
 
     <div className='content_block'>
-    <ul>
-        <li><ALink href='https://education.mit.edu/project/clevr/'>MIT Scheller Teacher Education Program - Clevr</ALink></li>
-    </ul>
+    <div className='stub_container'>
+      <Stub
+        title='"What is a Game?”'
+        desc='Multi-Level Understanding of Games as Media'
+        date='Dec 2016'
+        theme=''
+        link='/thoughts/whatisagame'>
+      </Stub>
+      <Stub
+        title='An Examination of Comics'
+        desc='An Examination of Comics by Comparison to other Mediums'
+        date='Nov 2016'
+        theme=''
+        link='/thoughts/comics'>
+      </Stub>
+    </div>
     </div>
   </Layout>
 )
 
-export default ClevrPage
+export default ThoughtsPage
