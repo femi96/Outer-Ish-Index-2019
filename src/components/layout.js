@@ -11,6 +11,7 @@ import twittericon from '../images/twitter-icon.png'
 import githubicon from '../images/github-icon.png'
 
 import './layout.css'
+import './listblock.css'
 import ALink from './alink'
 
 const Layout = ({ children, title }) => (

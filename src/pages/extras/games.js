@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
+import ALink from '../../components/alink'
 
 const ClevrPage = () => (
   <Layout title='Clevr'>
@@ -15,7 +16,7 @@ const ClevrPage = () => (
 
     <div className='content_block'>
     <ul>
-        <li><a href='https://education.mit.edu/project/clevr/'>MIT Scheller Teacher Education Program - Clevr</a></li>
+        <li><ALink href='https://education.mit.edu/project/clevr/'>MIT Scheller Teacher Education Program - Clevr</ALink></li>
     </ul>
     </div>
   </Layout>

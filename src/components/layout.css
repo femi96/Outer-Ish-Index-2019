@@ -5,6 +5,12 @@
   font-weight:normal;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight:bold;
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -53,10 +59,6 @@ hr {
   border-radius: 0.375rem;
   border: 1px solid #EFEFEF;
   cursor: default;
-}
-
-@media(max-width: 40rem) {
-  .main{width: calc(100%)}
 }
 
 /* Header
@@ -132,7 +134,7 @@ hr {
   padding: 0 2.25rem;
 }
 
-@media(max-width: 40rem) {
+@media(max-width: 44rem) {
   .content{padding: 0 1.25rem;}
 }
 
@@ -162,7 +164,7 @@ hr {
   margin: 0 -2.25rem;
 }
 
-@media(max-width: 40rem) {
+@media(max-width: 44rem) {
   .content hr{margin: 0 -1.25rem;}
 }
 
