@@ -1,25 +1,50 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-import ALink from '../../components/alink'
+import Box from '../../components/box'
 
-const ClevrPage = () => (
-  <Layout title='Clevr'>
-    <div className='page_title'>Clevr</div>
-    <div className='page_subtitle'>Collaborative Learning Experiences in Virtual Reality</div>
-
-    <div className='paragraph'><p>Developed a 3D cell environment, with navigation tools and network functionality for STEP Lab’s CLEVR. CLEVR is a project designed to create learning experience in virtual reality, supported by Oculus and the MIT GameLab. The unique affordances of VR have helped to dispel some of the misconceptions about molecular biology, while the networking capabilities have improved the project’s viability as a classroom tool.</p></div>
-
+const GamesPage = () => (
+  <Layout title='Games'>
+    <div className='page_title'>Games</div>
+    <div className='page_subtitle'>Some of my favorite games</div>
+    
     <hr></hr>
-    <div className='title'>Links</div>
+    <div className='title'>Top 5 Games</div>
     <hr></hr>
 
-    <div className='content_block'>
-    <ul>
-        <li><ALink href='https://education.mit.edu/project/clevr/'>MIT Scheller Teacher Education Program - Clevr</ALink></li>
-    </ul>
+    <div className='box_container'>
+      <Box
+        theme=''
+        author='Team Cherry'
+        text='Hollow Knight'
+        link='https://hollowknight.com/'>
+      </Box>
+      <Box
+        theme=''
+        author='Rare'
+        text='Viva Piñata: TiP'
+        link='https://en.wikipedia.org/wiki/Viva_Pi%C3%B1ata:_Trouble_in_Paradise'>
+      </Box>
+      <Box
+        theme=''
+        author='Subset Games'
+        text='Into the Breach'
+        link='https://subsetgames.com/itb.html'>
+      </Box>
+      <Box
+        theme=''
+        author='Supergiant Games'
+        text='Transistor'
+        link='https://www.supergiantgames.com/games/transistor/'>
+      </Box>
+      <Box
+        theme=''
+        author='FromSoftware'
+        text='Dark Souls'
+        link='https://en.wikipedia.org/wiki/Dark_Souls'>
+      </Box>
     </div>
   </Layout>
 )
 
-export default ClevrPage
+export default GamesPage
