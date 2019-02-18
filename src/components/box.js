@@ -9,6 +9,7 @@ import ALink from './alink'
 const Box = ({ text, theme, author, link }) => (
   <ALink href={link}>
   <div className={'box ' + theme}>
+    <div className='box_textbox'/>
     {author ? <div className='box_author'>{author}</div> : ''}
     <div className='box_text'>{text}</div>
   </div>

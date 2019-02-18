@@ -5,7 +5,7 @@
 }
 
 .box {
-  transition: all 0.4s;
+  transition: 0.5s;
   overflow: hidden;
   margin: 0.25rem 0.25rem;
   padding: 0;
@@ -17,37 +17,98 @@
   /*border-radius: 0.25rem;*/
   display: inline-block;
   position: relative;
+  background-size: cover;
 }
 
 .box_text {
+  transition: 0.5s;
   position: absolute;
   width: 100%;
   bottom: 0.25rem;
+  opacity: 0;
 
   font-size: 1.125rem;
   /*line-height: 7.5rem;*/
 }
 
 .box_author {
+  transition: 0.5s;
   position: absolute;
   width: 100%;
   bottom: 1.5rem;
+  opacity: 0;
 
   font-size: 1rem;
   color: #828282;
   /*line-height: 7.5rem;*/
 }
 
+.box_textbox {
+  transition: 0.5s;
+  position: absolute;
+  left: 0.125rem;
+  right: 0.125rem;
+  height: 3rem;
+  bottom: 0.125rem;
+  background-color: #f9f9f9;
+  border: solid #EFEFEF 1px;
+  border-radius: 0.75rem;
+  opacity: 0;
+}
+
+.box:hover .box_text {
+  opacity: 1;
+  color: #333;
+}
+
+.box:hover .box_author {
+  opacity: 1;
+}
+
+.box:hover .box_textbox {
+  opacity: 0.98;
+}
+
 .box:hover {
   background-color: #fff;
 }
 
-.circ_theme_a {
-  /*background-image: url('../images/back_blue_gem.png');*/
-  /*border-color: black;*/
+.box_theme_dark {
+  background-image: url('../images/game_dark.png');
 }
 
-.circ_theme_a:hover {
-  /*background-image: url('../images/back_yellow_gem.png');*/
-  /*border-color: grey;*/
+.box_theme_hollow {
+  background-image: url('../images/game_hollow.png');
+}
+
+.box_theme_itb {
+  background-image: url('../images/game_itb.jpg');
+}
+
+.box_theme_transistor {
+  background-image: url('../images/game_transistor.jpg');
+}
+
+.box_theme_vp {
+  background-image: url('../images/game_vp.png');
+}
+
+.box_theme_american {
+  background-image: url('../images/music_american.jpg');
+}
+
+.box_theme_blonde {
+  background-image: url('../images/music_blonde.jpg');
+}
+
+.box_theme_cowboy {
+  background-image: url('../images/music_cowboy.jpg');
+}
+
+.box_theme_flower {
+  background-image: url('../images/music_flower.png');
+}
+
+.box_theme_mtv {
+  background-image: url('../images/music_mtv.jpg');
 }

@@ -14,31 +14,31 @@ const GamesPage = () => (
 
     <div className='box_container'>
       <Box
-        theme=''
+        theme='box_theme_hollow'
         author='Team Cherry'
         text='Hollow Knight'
         link='https://hollowknight.com/'>
       </Box>
       <Box
-        theme=''
+        theme='box_theme_vp'
         author='Rare'
         text='Viva Piñata: TiP'
         link='https://en.wikipedia.org/wiki/Viva_Pi%C3%B1ata:_Trouble_in_Paradise'>
       </Box>
       <Box
-        theme=''
+        theme='box_theme_itb'
         author='Subset Games'
         text='Into the Breach'
         link='https://subsetgames.com/itb.html'>
       </Box>
       <Box
-        theme=''
+        theme='box_theme_transistor'
         author='Supergiant Games'
         text='Transistor'
         link='https://www.supergiantgames.com/games/transistor/'>
       </Box>
       <Box
-        theme=''
+        theme='box_theme_dark'
         author='FromSoftware'
         text='Dark Souls'
         link='https://en.wikipedia.org/wiki/Dark_Souls'>
