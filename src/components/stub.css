@@ -22,11 +22,16 @@
   background-color: #fff;
 }
 
+@media(max-width: 33rem) {
+  .stub{height: 5rem;}
+}
+
 .stub_date {
   float: right;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
   color: #828282;
+  white-space: nowrap;
 }
 
 .stub_title {
@@ -34,6 +39,7 @@
   position: absolute;
   bottom: 1.5rem;
   left: 0.5rem;
+  white-space: nowrap;
 }
 
 .stub_desc {
@@ -41,6 +47,7 @@
   bottom: 0.375rem;
   left: 0.5rem;
   color: #828282;
+  white-space: nowrap;
 }
 
 .stub_theme_a {
