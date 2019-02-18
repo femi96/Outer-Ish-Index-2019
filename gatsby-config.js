@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Femi Oladipupo Website`,
+    description: `I'm Femi Oladipupo, an MIT senior completing a bachelor's degree in Computer Science and Engineering (6-3) with a minor in Comparative Media Studies (CMS).`,
+    author: `@imef96`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Femi Oladipupo`,
-        short_name: `Femi Oladipupo`,
+        name: `Femi Oladipupo Website`,
+        short_name: `Femi O. Site`,
         start_url: `/`,
         background_color: `#FDFDFD`,
         theme_color: `#FDFDFD`,
         display: `standalone`,
-        icon: `src/images/oii-icon.png`, // This path is relative to the root of the site.
+        // icon: `src/images/oii-icon.png`, // This path is relative to the root of the site.
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
