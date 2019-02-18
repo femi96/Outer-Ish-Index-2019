@@ -28,6 +28,7 @@ const Layout = ({ children, title }) => (
         { rel: 'shortcut icon', type: 'image/png', href: `${favicon64}` },
       ]}
     >
+    <html lang='en'/>
     </Helmet>
 
     <div className='main'>
