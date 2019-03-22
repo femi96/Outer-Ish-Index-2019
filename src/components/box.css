@@ -18,13 +18,15 @@
   display: inline-block;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .box_text {
   transition: 0.5s;
   position: absolute;
   width: 100%;
-  bottom: 0.25rem;
+  bottom: 0.375rem;
   opacity: 0;
 
   font-size: 1.125rem;
@@ -35,7 +37,7 @@
   transition: 0.5s;
   position: absolute;
   width: 100%;
-  bottom: 1.5rem;
+  bottom: 1.625rem;
   opacity: 0;
 
   font-size: 1rem;
@@ -46,10 +48,10 @@
 .box_textbox {
   transition: 0.5s;
   position: absolute;
-  left: 0.125rem;
-  right: 0.125rem;
+  left: 0.25rem;
+  right: 0.25rem;
   height: 3rem;
-  bottom: 0.125rem;
+  bottom: 0.25rem;
   background-color: #f9f9f9;
   border: solid #EFEFEF 1px;
   border-radius: 0.75rem;
@@ -66,32 +68,88 @@
 }
 
 .box:hover .box_textbox {
-  opacity: 0.98;
+  opacity: 1;
 }
 
 .box:hover {
   background-color: #fff;
 }
 
+/* Games */
+
 .box_theme_dark {
   background-image: url('../images/game_dark.png');
 }
-
 .box_theme_hollow {
   background-image: url('../images/game_hollow.png');
 }
-
 .box_theme_itb {
   background-image: url('../images/game_itb.jpg');
 }
-
 .box_theme_transistor {
   background-image: url('../images/game_transistor.jpg');
 }
-
 .box_theme_vp {
   background-image: url('../images/game_vp.png');
 }
+
+.box_theme_starbound {
+  background-image: url('../images/game_starbound.jpg');
+}
+.box_theme_slime {
+  background-image: url('../images/game_slime.jpg');
+}
+.box_theme_ror {
+  background-image: url('../images/game_ror.png');
+}
+
+.box_theme_pyre {
+  background-image: url('../images/game_pyre.jpg');
+}
+.box_theme_es2 {
+  background-image: url('../images/game_es2.jpg');
+  background-position: center top;
+}
+.box_theme_dq9 {
+  background-image: url('../images/game_dq9.jpg');
+  height: 9.75rem;
+}
+
+.box_theme_ffta {
+  background-image: url('../images/game_ffta.jpg');
+}
+.box_theme_ffta2 {
+  background-image: url('../images/game_ffta2.jpg');
+  height: 9.75rem;
+}
+.box_theme_chocobo {
+  background-image: url('../images/game_chocobo.jpg');
+  height: 9.75rem;
+}
+
+.box_theme_kh2 {
+  background-image: url('../images/game_kh2.jpg');
+  width: 8.5rem;
+  background-position: center top;
+}
+.box_theme_kh3 {
+  background-image: url('../images/game_kh3.jpg');
+}
+.box_theme_khdays {
+  background-image: url('../images/game_khdays.jpg');
+  height: 9.75rem;
+}
+
+.box_theme_pokemon {
+  background-image: url('../images/game_pokemon.png');
+  height: 9.75rem;
+}
+.box_theme_sky {
+  background-image: url('../images/game_sky.jpg');
+  height: 9.75rem;
+}
+
+/* Music */
 
 .box_theme_american {
   background-image: url('../images/music_american.jpg');

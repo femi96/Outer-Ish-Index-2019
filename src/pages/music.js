@@ -14,31 +14,31 @@ const MusicPage = () => (
 
     <div className='box_container'>
       <Box
-        theme='box_theme_blonde'
+        theme='blonde'
         author='Frank Ocean'
         text='Blonde'
         link='https://www.youtube.com/watch?v=diIFhc_Kzng&list=PLJ2FljtfRtQVqVt0AwpyYGxJrET4cjB4V'>
       </Box>
       <Box
-        theme='box_theme_mtv'
+        theme='mtv'
         author='Kevin Abstract'
         text='MTV1987'
         link='https://www.youtube.com/watch?v=7D3AnGPeADk'>
       </Box>
       <Box
-        theme='box_theme_flower'
+        theme='flower'
         author='Tyler the Creator'
         text='Flower Boy'
         link='https://www.youtube.com/watch?v=OB12BslMI3Q'>
       </Box>
       <Box
-        theme='box_theme_cowboy'
+        theme='cowboy'
         author='Mitski'
         text='Be the Cowboy'
         link='https://www.youtube.com/watch?v=3zdFZJf-B90&list=PLVCjGDT0cZZF78SAWjwV4_Lsu01RyWr5q'>
       </Box>
       <Box
-        theme='box_theme_american'
+        theme='american'
         author='Kevin Abstract'
         text='American Boyfriend'
         link='https://www.youtube.com/watch?v=dJarpbuXxDU'>
